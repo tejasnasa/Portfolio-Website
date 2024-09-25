@@ -30,6 +30,13 @@ ul {
       "wdth" 112.5;
 }
 
+.non-select {
+    -webkit-user-select: none;       
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 #name {
     font-size: 90px;
     margin-top: 70px;
@@ -47,7 +54,7 @@ ul {
 
 #window {
     border: 5px solid #eeebeb;
-    height: 2000px;
+    height: auto;
 }
 
 #menu {
@@ -67,15 +74,18 @@ ul {
     border-top: 2px solid #eeebeb;
     height: 100%;
     width: auto;
-    display: flex;
     background-color: #008080;
     padding: 40px;
-    color: white;
     font-size: 19px;
+    color: white;
 }
 
 #data-box a {
-    color: rgb(217, 81, 183);
+    color: #7cc3e9;
+}
+
+#data-box ul{
+    display: inline;
 }
 
 @media screen and (max-width: 800px) {
