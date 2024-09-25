@@ -30,6 +30,15 @@ ul {
       "wdth" 112.5;
 }
 
+.inconsolata2 {
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 50;
+}
+
 .non-select {
     -webkit-user-select: none;       
     -moz-user-select: none;
@@ -64,6 +73,7 @@ ul {
 #window {
     border: 5px solid #eeebeb;
     height: auto;
+    box-shadow: 5px 5px 15px rgb(202, 206, 210);
 }
 
 #menu {
@@ -110,6 +120,12 @@ ul {
     display: inline-block;
 }
 
+#projecttitle {
+    font-size: 30px;
+    margin-top: 100px;
+    color: #212763;
+}
+
 footer div section a i{
     padding: 10px;
 }
@@ -126,7 +142,7 @@ footer div section a i{
     background: rgb(89, 127, 216);
 }
 
-.fa-github {
+footer .fa-github {
     background: white;
     border: 2px solid black;
     border-style: inset;
@@ -135,6 +151,39 @@ footer div section a i{
 
 .fa-youtube {
     background: rgb(234, 108, 108);
+}
+
+.card {
+    box-shadow: 5px 5px 15px rgb(202, 206, 210);
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-body .btn-sm {
+    border: 2px solid #92EAC0;
+    margin: 3px;
+}
+
+.card-body .btn-sm {
+    border: 2px solid #92EAC0;
+    margin: 3px;
+}
+
+.btn-primary {
+    background-color: #747FE0;
+    border-color: #747FE0;
+    box-shadow: 2px 2px 10px rgb(202, 206, 210);
+}
+
+.btn-secondary {
+    box-shadow: 2px 2px 10px rgb(202, 206, 210);
+}
+
+.card-img {
+    object-fit: cover;
+    height: 100%;
 }
 
 @media screen and (max-width: 800px) {
@@ -162,9 +211,4 @@ footer div section a i{
     .container {
         width: 100%;
     }
-
-    footer div section a i{
-        padding: 0;
-    }
-
 }
