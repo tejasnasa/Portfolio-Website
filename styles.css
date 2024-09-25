@@ -110,6 +110,33 @@ ul {
     display: inline-block;
 }
 
+footer div section a i{
+    padding: 10px;
+}
+
+.fa-twitter {
+    background: skyblue;
+}
+
+.fa-instagram {
+    background: rgb(234, 135, 209);
+}
+
+.fa-linkedin {
+    background: rgb(89, 127, 216);
+}
+
+.fa-github {
+    background: white;
+    border: 2px solid black;
+    border-style: inset;
+    padding: 8px;
+}
+
+.fa-youtube {
+    background: rgb(234, 108, 108);
+}
+
 @media screen and (max-width: 800px) {
     #name {
         font-size: 13vw;
@@ -134,6 +161,10 @@ ul {
 
     .container {
         width: 100%;
+    }
+
+    footer div section a i{
+        padding: 0;
     }
 
 }
