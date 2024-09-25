@@ -120,10 +120,21 @@ ul {
     display: inline-block;
 }
 
-#projecttitle {
+#projects {
     font-size: 30px;
     margin-top: 100px;
     color: #212763;
+}
+
+#contacttitle {
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    color: #212763;
+}
+
+#contact {
+    margin-bottom: 150px;
 }
 
 footer div section a i{
@@ -184,6 +195,16 @@ footer .fa-github {
 .card-img {
     object-fit: cover;
     height: 100%;
+}
+
+.contacts {
+    margin-bottom: 400px;
+}
+
+#contact h4 a{
+    margin: 40px;
+    color: #747FE0;
+    font-weight: 500;
 }
 
 @media screen and (max-width: 800px) {
