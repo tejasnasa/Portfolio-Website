@@ -1,29 +1,96 @@
-#name {
-    font-size: 90px;
-    margin-top: 70px;
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
-body {
-    color: #747FE0;
+ul {
+    list-style-type: "> ";
 }
 
 .container {
     width: 65%;
-} 
+}
+
+.nav-item.h5{
+    margin: 20px;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
 
 .inconsolata {
-  font-family: "Inconsolata", monospace;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 112.5;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 112.5;
+}
+
+#name {
+    font-size: 90px;
+    margin-top: 70px;
+    color: #747FE0;
+}
+
+#bio a {
+    color: #747FE0;
+}
+
+#bio {
+    font-size: 21px;
+    width: 80%;
+}
+
+#window {
+    border: 5px solid #eeebeb;
+    height: 2000px;
+}
+
+#menu {
+    background: #929294;
+    background: linear-gradient(90deg, #929294 0%, #cdc6c6 79%);
+    display: flex;
+    height: fit-content;
+    justify-content: space-between; 
+}
+
+#win-buttons {
+    width: auto;
+    height: 30px;
+}
+
+#data-box {
+    border-top: 2px solid #eeebeb;
+    height: 100%;
+    width: auto;
+    display: flex;
+    background-color: #008080;
+    padding: 40px;
+    color: white;
+    font-size: 19px;
+}
+
+#data-box a {
+    color: rgb(217, 81, 183);
 }
 
 @media screen and (max-width: 800px) {
 
     #name {
         font-size: 13vw;
+    }
+
+    #bio {
+        font-size: 4vw;
+        width: 100%;
+    }
+
+    .nav-item.h5{
+        margin: 5px;
     }
 
     .container {
