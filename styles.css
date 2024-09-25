@@ -41,6 +41,15 @@ ul {
     font-size: 90px;
     margin-top: 70px;
     color: #747FE0;
+    display: flex;
+    align-items: center;
+}
+
+#blink1 {
+    background-color: #a9b0eb;
+    height: 90px;
+    width: 40px;
+    display: inline-block;
 }
 
 #bio a {
@@ -88,17 +97,37 @@ ul {
     display: inline;
 }
 
-@media screen and (max-width: 800px) {
+#blink2 {
+    background-color: rgb(209, 205, 205);
+    height: 20px;
+    width: 10px;
+    display: inline-block;
+}
 
+#blank {
+    height: 19px;
+    width: 10px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 800px) {
     #name {
         font-size: 13vw;
     }
 
+    #blink1 {
+        height: 13vw;
+        width: 5.8vw;
+    }
+
     #bio {
-        font-size: 4vw;
+        font-size: 4.5vw;
         width: 100%;
     }
 
+    #data-box {
+        padding: 10px;
+    }
     .nav-item.h5{
         margin: 5px;
     }
@@ -106,4 +135,5 @@ ul {
     .container {
         width: 100%;
     }
+
 }

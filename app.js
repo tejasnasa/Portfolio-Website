@@ -1,9 +1,6 @@
-// Initialization for ES Users
-import { Ripple, initMDB } from "mdb-ui-kit";
-
-initMDB({ Ripple });
-
 var t = setInterval(() => {
-    var blink = document.getElementById('blink');
-    blink.style.visibility = (blink.style.visibility == 'hidden' ? '' : 'hidden');
+    var blink1 = document.querySelector('#blink1');
+    var blink2 = document.querySelector('#blink2');
+    blink1.style.visibility = (blink1.style.visibility == 'hidden' ? '' : 'hidden');
+    blink2.style.visibility = (blink2.style.visibility == 'hidden' ? '' : 'hidden');
 }, 500);
