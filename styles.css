@@ -1,3 +1,7 @@
+* {
+    transition: 0.2s ease all;
+}
+
 .typed-cursor {
     display: none;
 }
@@ -50,6 +54,16 @@ ul {
     user-select: none;
 }
 
+::selection {
+    background-color: #FFDD33;
+    color: #222222;
+}
+
+::-moz-selection {
+    background-color: #FFDD33;
+    color: #222222;
+}
+
 #name {
     font-size: 90px;
     margin-top: 70px;
@@ -69,6 +83,10 @@ ul {
     color: #747FE0;
 }
 
+#bio a:hover {
+    color: #535ec5;
+}
+
 #bio {
     font-size: 21px;
     width: 80%;
@@ -76,7 +94,6 @@ ul {
 
 #window {
     border: 5px solid #eeebeb;
-    height: auto;
     box-shadow: 5px 5px 15px rgb(202, 206, 210);
 }
 
@@ -105,6 +122,10 @@ ul {
 
 #data-box a {
     color: #7cc3e9;
+}
+
+#data-box a:hover {
+    color: #06ec0e;
 }
 
 #data-box ul{
@@ -146,6 +167,10 @@ ul {
     justify-content: space-evenly;
 }
 
+#contact h4 a:hover {
+    color: #1a2dd8;
+}
+
 #contact h4 a{
     color: #747FE0;
     font-weight: 500;
@@ -176,11 +201,38 @@ footer .fa-github {
 }
 
 .fa-youtube {
-    background: rgb(234, 108, 108);
+    background: rgb(227, 77, 77);
+}
+
+.fa-twitter:hover {
+    background: rgb(95, 196, 236);
+}
+
+.fa-instagram:hover {
+    background: rgb(247, 94, 209);
+}
+
+.fa-linkedin:hover {
+    background: rgb(54, 103, 218);
+}
+
+footer .fa-github:hover {
+    background: rgb(223, 221, 221);
+    border: 2px solid black;
+    border-style: inset;
+    padding: 8px;
+}
+
+.fa-youtube:hover {
+    background: rgb(224, 52, 52);
 }
 
 .card {
     box-shadow: 5px 5px 15px rgb(202, 206, 210);
+}
+
+.card:hover {
+    box-shadow: 5px 5px 5px rgb(202, 206, 210);
 }
 
 .card-title {
@@ -192,14 +244,21 @@ footer .fa-github {
     margin: 3px;
 }
 
-.card-body .btn-sm {
-    border: 2px solid #92EAC0;
+.card-body .btn-sm:hover {
+    border: 2px solid #92aeea;
     margin: 3px;
+    cursor: initial;
 }
 
 .btn-primary {
     background-color: #747FE0;
     border-color: #747FE0;
+    box-shadow: 2px 2px 10px rgb(202, 206, 210);
+}
+
+.btn-primary:hover {
+    background-color: #4d5cdc;
+    border-color: #4d5cdc;
     box-shadow: 2px 2px 10px rgb(202, 206, 210);
 }
 
@@ -218,10 +277,9 @@ footer .fa-github {
 
 footer div section {
     display: flex;
-    width: 100px;
     margin-left: auto;
     margin-right: auto;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 @media screen and (max-width: 800px) {
