@@ -1,5 +1,0 @@
-- resume.pdf
-- typewriter effect
-- contact details
-- footer
-- 

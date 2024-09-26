@@ -133,12 +133,23 @@ ul {
 #contacttitle {
     font-size: 30px;
     margin-top: 100px;
-    margin-bottom: 150px;
     color: #212763;
 }
 
 #contact {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
+}
+
+#contact h4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#contact h4 a{
+    color: #747FE0;
+    font-weight: 500;
+    margin: 20px;
 }
 
 footer div section a i{
@@ -205,10 +216,12 @@ footer .fa-github {
     margin-bottom: 400px;
 }
 
-#contact h4 a{
-    margin: 40px;
-    color: #747FE0;
-    font-weight: 500;
+footer div section {
+    display: flex;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
 }
 
 @media screen and (max-width: 800px) {
@@ -229,6 +242,7 @@ footer .fa-github {
     #data-box {
         padding: 10px;
     }
+
     .nav-item.h5{
         margin: 5px;
     }
