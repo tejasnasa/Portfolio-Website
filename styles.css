@@ -254,6 +254,8 @@ footer .fa-github:hover {
     background-color: #747FE0;
     border-color: #747FE0;
     box-shadow: 2px 2px 10px rgb(202, 206, 210);
+    border-radius: 0;
+    padding: 10px 20px;
 }
 
 .btn-primary:hover {
@@ -264,6 +266,8 @@ footer .fa-github:hover {
 
 .btn-secondary {
     box-shadow: 2px 2px 10px rgb(202, 206, 210);
+    border-radius: 0;
+    padding: 10px 20px;
 }
 
 .card-img {
