@@ -2,7 +2,6 @@ var typed = new Typed('#typewrite', {
     strings: ['Tejas Nasa'],
     typeSpeed: 70,
     onComplete: function() {
-        // Start the blinking effect after the typing is completed
         var t = setInterval(() => {
             var blink1 = document.querySelector('#blink1');
             blink1.style.visibility = (blink1.style.visibility == 'hidden' ? '' : 'hidden');
