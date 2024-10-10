@@ -69,7 +69,7 @@ ul {
 #name {
   font-size: 90px;
   margin-top: 70px;
-  color: #ffffff;
+  color: white;
   display: flex;
   align-items: center;
 }
@@ -78,7 +78,7 @@ ul {
   border-top: 2px solid #eeebeb;
   height: 100%;
   width: auto;
-  background-color: #1f1f1f;
+  background-color: #010080;
   padding: 40px;
   font-size: 19px;
   color: white;
@@ -97,7 +97,7 @@ ul {
 }
 
 #blink1 {
-  background-color: #939393;
+  background-color: #ffffff;
   height: 90px;
   width: 40px;
   display: inline-block;
@@ -108,11 +108,11 @@ ul {
 }
 
 #bio a {
-  color: #ecb0b0;
+  color: rgb(251, 151, 151);
 }
 
 #bio a:hover {
-  color: #535ec5;
+  color: greenyellow;
 }
 
 #bio {
