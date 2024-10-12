@@ -138,6 +138,12 @@ ul {
   display: inline-block;
 }
 
+#experience {
+  font-size: 30px;
+  margin-top: 100px;
+  color: rgb(0, 0, 0);
+}
+
 #projects {
   font-size: 30px;
   margin-top: 100px;
@@ -166,8 +172,19 @@ ul {
   margin: 20px;
 }
 
+#exp {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#geek {
+  height:81%;
+}
+
 .window {
   margin-top: 40px;
+  background-color: #F1EBEB;
   border: 5px solid #d3d0d0;
 }
 
@@ -176,6 +193,30 @@ ul {
   display: flex;
   height: fit-content;
   justify-content: space-between;
+}
+
+.col {
+  margin: 0;
+}
+
+.expcard {
+  background-color: #F1EBEB;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.expcard img {
+  height: 100px;
+}
+
+.company {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.role {
+  font-style: italic;
+  font-size: 15px;
 }
 
 .card {
