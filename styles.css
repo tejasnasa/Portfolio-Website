@@ -207,6 +207,7 @@ ul {
 }
 .expcard img {
   height: 100px;
+  border: 3px solid rgb(133, 129, 129);
 }
 
 .company {
